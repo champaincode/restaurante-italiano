@@ -49,7 +49,7 @@
             "react-resizable-panels": "^2.1.7",
             "react-router": "*",
             "recharts": "^2.15.2",
-            "sharp": "^0.34.5",
+
             "sonner": "^2.0.3",
             "tailwind-merge": "*",
             "vaul": "^1.1.2"
@@ -59,6 +59,7 @@
             "@types/react": "^19.2.13",
             "@types/react-dom": "^19.2.3",
             "@vitejs/plugin-react-swc": "^3.10.2",
+            "sharp": "^0.34.5",
             "typescript": "^5.9.3",
             "vite": "6.3.5",
             "vite-plugin-mkcert": "^1.17.10"
