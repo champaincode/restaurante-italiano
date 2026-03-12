@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Il Borsalino - Restaurante &amp; Pizzería</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&amp;family=Playfair+Display:ital@1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec4913",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221510",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans"],
+                        "serif": ["Playfair Display", "serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .logo-script {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+        }
+        body {
+            -webkit-tap-highlight-color: transparent;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-zinc-900 dark:text-zinc-100 antialiased overflow-x-hidden">
+<!-- iOS Status Bar Spacer -->
+<div class="h-12 w-full bg-background-light dark:bg-background-dark sticky top-0 z-50"></div>
+<!-- Navigation Header -->
+<header class="sticky top-12 z-50 px-6 py-4 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md flex justify-between items-center">
+<!-- Logo Section -->
+<div class="flex flex-col items-start">
+<h1 class="logo-script text-2xl tracking-tight leading-none text-zinc-900 dark:text-zinc-50">
+                Il Borsalino
+            </h1>
+<span class="text-[8px] uppercase tracking-[0.2em] font-medium text-zinc-500 dark:text-zinc-400 mt-1">
+                Restaurante &amp; Pizzería
+            </span>
+</div>
+<!-- Menu Toggle (iOS Style) -->
+<button class="w-10 h-10 flex items-center justify-end focus:outline-none">
+<div class="flex flex-col gap-1.5 items-end">
+<span class="w-6 h-0.5 bg-zinc-900 dark:bg-zinc-50 rounded-full"></span>
+<span class="w-4 h-0.5 bg-zinc-900 dark:bg-zinc-50 rounded-full"></span>
+</div>
+</button>
+</header>
+<!-- Hero Content Area -->
+<main class="relative px-6 pt-12 pb-24 min-h-[80vh] flex flex-col justify-between">
+<div class="space-y-8">
+<div class="overflow-hidden rounded-xl h-64 relative group">
+<img alt="Italian Kitchen" class="w-full h-full object-cover grayscale-[20%] group-hover:scale-105 transition-transform duration-700" data-alt="Modern minimalist restaurant interior with soft lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTDPhMfkv7rGR8BaKjsTsDQDy5k6EHZexnWby4CpyCqi3t6CqBIGaBqNwteUby3AEMV4LRGl6HUlfMPvqlIcFXGL5gy7bPOEyzSdKpWTlpe8YQaSt1xvuM0BTojwjtB3dL31DLptR9XH1h---aFRcom9CneG3u6HcoLTLZCyODfJRb2PNRa7zwaOj9N_0L9Gkz7OfXp0oZ6EO0LBf5bXYG2TExY2gbefwKS0NW_DZ7pJU9v3ucTI5sVmhAAx-SYIOutwWmvVhThPTa"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+</div>
+<div class="space-y-4">
+<p class="text-primary font-semibold tracking-widest text-xs uppercase">Since 1984</p>
+<h2 class="text-4xl font-light leading-tight tracking-tight text-zinc-900 dark:text-white">
+                    The heart of <span class="logo-script italic">Italy</span> in every bite.
+                </h2>
+<p class="text-zinc-500 dark:text-zinc-400 text-sm max-w-xs leading-relaxed">
+                    Experience authentic flavors crafted with heritage recipes and modern culinary elegance.
+                </p>
+</div>
+</div>
+<!-- Quick Navigation Links -->
+<div class="grid grid-cols-2 gap-4 mt-12">
+<a class="flex flex-col p-6 bg-white dark:bg-zinc-800/50 rounded-lg border border-zinc-100 dark:border-zinc-800" href="#">
+<span class="material-icons text-primary mb-3">restaurant_menu</span>
+<span class="font-medium text-sm">Explore Menu</span>
+</a>
+<a class="flex flex-col p-6 bg-primary text-white rounded-lg shadow-lg shadow-primary/20" href="#">
+<span class="material-icons text-white mb-3">event_seat</span>
+<span class="font-medium text-sm">Book a Table</span>
+</a>
+</div>
+</main>
+<!-- Bottom Navigation Bar (iOS Style) -->
+<nav class="fixed bottom-0 left-0 right-0 bg-white/90 dark:bg-zinc-900/90 backdrop-blur-xl border-t border-zinc-200 dark:border-zinc-800 px-8 py-4 pb-10 flex justify-between items-center z-50">
+<div class="flex flex-col items-center gap-1 group">
+<span class="material-icons text-primary">home</span>
+<span class="text-[10px] font-bold text-primary">Home</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-zinc-400 dark:text-zinc-500">
+<span class="material-icons">menu_book</span>
+<span class="text-[10px] font-medium">Menu</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-zinc-400 dark:text-zinc-500">
+<span class="material-icons">history_edu</span>
+<span class="text-[10px] font-medium">Our Story</span>
+</div>
+<div class="flex flex-col items-center gap-1 text-zinc-400 dark:text-zinc-500">
+<span class="material-icons">contact_page</span>
+<span class="text-[10px] font-medium">Contact</span>
+</div>
+</nav>
+<!-- Background Decoration -->
+<div class="fixed top-0 right-0 -z-10 opacity-10 dark:opacity-5 translate-x-1/2 -translate-y-1/2">
+<div class="w-96 h-96 rounded-full bg-primary blur-[100px]"></div>
+</div>
+<!-- Page Footer (Scroll content) -->
+<footer class="px-6 pb-40 text-center">
+<div class="w-12 h-1 bg-zinc-200 dark:bg-zinc-800 mx-auto rounded-full mb-8"></div>
+<div class="flex justify-center gap-6 text-zinc-400 dark:text-zinc-500 mb-6">
+<span class="material-icons text-lg">facebook</span>
+<span class="material-icons text-lg">camera_alt</span>
+<span class="material-icons text-lg">alternate_email</span>
+</div>
+<p class="text-[10px] uppercase tracking-widest text-zinc-400">© 2024 Il Borsalino Restaurante</p>
+</footer>
+</body></html>
